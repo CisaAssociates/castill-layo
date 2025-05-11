@@ -2,6 +2,5 @@
     RewriteEngine On
 
     # Redirect to public folder
-    RewriteRule ^$ public/index.php [L]
     RewriteRule (.*) public/$1 [L]
 </IfModule>
